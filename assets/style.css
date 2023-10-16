@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 20px;
+    color: white;
+    background-color: #202020;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header h1 {
+    display: inline;
+}
+
+#Duran{
+    color: gold;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: darkgray;
+}
+
+.content{
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card-body-wide {
+    width: 100%;
+    background-image: url(./images/Horiseon.png);
+    height: 400px;
+}
+
+.card-body-50 {
+    width: 50%;
+}
+
+.background {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(./images/LAFC.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.left-align{
+    align-items: left;
+
+}
+
