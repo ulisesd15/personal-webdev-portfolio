@@ -7,7 +7,7 @@
 .header {
     padding: 20px;
     color: white;
-    background-color: #202020;
+    background-color: #080808;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -15,30 +15,72 @@
     display: inline;
 }
 
-#Duran{
+#Duran {
     color: gold;
 }
 
 .header div {
-    padding-top: 15px;
+    padding-top: 8px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
 body{
-    background-color: darkgray;
+    background-color: #202020;
+    color: white;
+}
+
+.border-right {
+    border-right: 5px rounded gold;
+}
+
+.about-me{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: left;
+    border-right:solid 7px gold;
+    height: 100px;
+}
+
+.left-align {
+    float: left;
+    display: inline-block;
+    width: 25%;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.right-align {
+    float: right;
+    display: inline-block;
+    width: 75%;
 }
 
 .content{
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .card-body-wide {
-    width: 100%;
+    width: 1500px;
     background-image: url(./images/Horiseon.png);
     height: 400px;
 }
@@ -48,9 +90,9 @@ body{
 }
 
 .background {
-    height: 400px;
+    height: 700px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     background-image: url(./images/LAFC.jpg);
     background-size: cover;
     background-position: center;
@@ -59,5 +101,11 @@ body{
 .left-align{
     align-items: left;
 
+}
+
+.footer {
+    border-top: 1000px;
+    width: 100%;
+    display: block;
 }
 
