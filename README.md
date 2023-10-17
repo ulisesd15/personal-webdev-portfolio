@@ -9,7 +9,7 @@ Given a personal portfolio webpage that is up to par with other profesionals
 When I open the webpage it has all my previous work, contact info, and a little bit about me while still being a fully accessible webpage.
 
 ## Webpage URL
-ulisesd15.io/personal-webdev-portfolio
+ulisesd15.github.io/personal-webdev-portfolio
 
 ###Webpage Screenshot
 ![Alt text](<./assets/images/Screen Shot 2023-10-16 at 11.44.18 PM.png>)
