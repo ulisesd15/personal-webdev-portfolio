@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     border: 0;
-    margin: 0;
+    margin: 0;;
 }
 
 .header {
@@ -32,7 +32,7 @@
 }
 
 .header div ul li {
-    display: inline-block;
+    display: inline;
     margin-left: 25px;
 }
 
@@ -41,56 +41,8 @@ a {
     text-decoration: none;
 }
 
-
-
-body{
-    background-color: #202020;
-    color: white;
-}
-
-.border-right {
-    border-right: 5px rounded gold;
-}
-
-.about-me{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    float: left;
-    border-right:solid 7px gold;
-    height: 100px;
-}
-
-.left-align {
-    float: left;
-    display: inline-block;
-    width: 25%;
-    margin-top: 50px;
-    justify-content: center;
-}
-
-.right-align {
-    float: right;
-    display: inline-block;
-    width: 75%;
-}
-
-.content{
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card-body-wide {
-    width: 1500px;
-    background-image: url(./images/Horiseon.png);
-    height: 400px;
-}
-
-.card-body-50 {
-    width: 50%;
-}
-
 .background {
-    height: 700px;
+    height: 600px;
     width: 100%;
     margin-bottom: 40px;
     background-image: url(./images/LAFC.jpg);
@@ -98,14 +50,109 @@ body{
     background-position: center;
 }
 
-.left-align{
-    align-items: left;
+body {
+    margin-top: 50px;
+    background-color: #202020;
+    color: white;
 
 }
 
-.footer {
-    border-top: 1000px;
+.about-me {
+    margin-bottom: 200px;
+}
+
+.section-name {
+    float: left;
+    width: 25%;
+    justify-content: flex-end;
+    border-right: 2px solid;
+    padding: 50px 50px 50px 150px;
+
+}
+
+.brag {
+    float: right;
+    width: 75%;
+    padding: 50px;
+}
+
+.work {
+    float: left;
+    padding-bottom: 2000px;
+}
+
+.work-done {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
+.Horiseon-card {
+    padding: 25px;
+    transition:flex 500ms linear;
+    margin-bottom: 25px;
+    display: inline-block;
     width: 100%;
-    display: block;
 }
+
+.Horiseon-card-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    padding: 2rem;
+    color: aqua;
+    outline: 2px solid white;
+}
+
+.Horiseon-card-header{
+    position: relative;
+    margin: -4rem 0 1.5rem 0;
+    padding: .5rem 1rem;
+    background-color: #202020;
+    color: gold;
+    border: 2px dashed white;
+    border-radius: 8px;
+}
+
+.card-body {
+    padding: 25px;
+    transition:flex 500ms linear;
+    margin-bottom: 25px;
+    width: 50%;
+}
+.card-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    color: aqua;
+    outline: 2px solid white;
+}
+
+.card-header {
+    position: relative;
+    margin: -4rem 0 1.5rem 0;
+    padding: .5rem 1rem;
+    background-color: #202020;
+    color: gold;
+    border: 2px dashed white;
+    border-radius: 8px;
+
+
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+
+} 
+
+
 
